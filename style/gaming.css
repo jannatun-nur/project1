@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+*{
+    font-family: 'Cormorant Garamond', serif;    
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding:6px;
+  
+ }
+header{
+    background-color:gainsboro;
+    color: blanchedalmond;
+    font-size: large;
+    color:black;
+    border-radius: 15px;
+    margin-bottom:6px;
+    
+}
+nav {
+    display: flex;
+ }
+ ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+ }
+button{
+   padding-inline: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   border-radius:10px;
+   color: antiquewhite;
+   background-color: blueviolet;
+   font-size: large;
+   border: none;
+  text-align: center;
+   ;
+}
+.banner-img{
+    width:100%;
+    height:400px;
+}
+banner{
+    text-align: center;
+align-items: center;  
+}
+/* MAIN SECTION---------------- */
+.main-container {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between; /* This will space out the list items */
+    align-items: center; /* This will vertically center the list items if they are of different heights */
+    padding: 0; /* This removes the default padding */
+    list-style: none; /* This removes the default list item markers */
+}
+.left{
+    background-color: aqua;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+.left-image{
+width:120px;
+border-radius: 10px;
+margin:20px 20px;
+
+}
+.left-text{
+    margin-top: 50px;
+    color: black;
+    font-size:35px;
+}
+
+
+
+/* DESCRIPTION */
+.text-ins{
+  
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+/* rightdes */
+.description{
+    display: flex;
+    justify-content: center;
+    
+}
+.dex-right {
+    position: static;
+    border-radius:5px;
+    width: 300px;
+    
+  }
+.des-right{
+    position: relative;
+    right: 150px;
+    top:60px;
+    width: 200px;
+    border-radius: 10px;
+}
+.right-text{
+    width: 300px;
+}
+
+/* SHOOTER AND FIGHTER */
+
+.shoter-container{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+   
+    border-radius: 15px;
+    }
+
+.shoter-left {
+    padding: 20px;
+    position: static;
+    border-radius:5px;
+    width: 300px;
+    
+  }
+.shoter-right{
+    position: relative;
+    right: 150px;
+    top:60px;
+    width: 200px;
+    border-radius: 10px;
+}
+.shoter{
+
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+/* PRO  PLAYERS */
+.player-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+}
+.img1{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.player-1{
+    display: flex;
+    justify-content:first baseline;
+    gap:2px;
+    background-color: rgb(242, 230, 230);
+    width:200px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.pr-text{
+   padding: 2px;
+}
+.top{
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+}
+
+
+/* MAGAZINE */
+.mag-container{
+    display: flex;
+   justify-content: space-evenly;
+    
+}
+.left-mag{
+    border-style: solid;
+  border-color: black;
+
+}
+
+.mag-text{
+    width: 300px;
+}
+.setup{
+    border-style: solid;
+    border-color: black;
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+  
+}
+
+/* review */
+
+.review{
+    display: flex;
+    justify-content:space-evenly;
+}
+.re-container{
+    
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.man-1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+   margin-left: 60px;
+   padding-top: 10px;
+}
+.name{
+    margin-left: 15px;
+}
+.icon{
+    color: rgb(239, 206, 21);
+    margin-left: 50px;
+   
+}
+.head{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* footer */
+.foot-conainer{
+    background-color:gainsboro;
+    height: 70px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap:80px;
+   
+}
